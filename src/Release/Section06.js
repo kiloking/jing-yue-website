@@ -17,6 +17,7 @@ function Section06() {
       backgroundImage: `url(${process.env.PUBLIC_URL +'/images/release/section_bg.png'})`,
     }}
     >
+        <div className=' absolute -bottom-[36%] z-40 w-[28%] '><img src={process.env.PUBLIC_URL+'/images/release/section_c01.png'} alt="" className='max-w-full  ' /></div>
         <div className='flex  flex-col  justify-between items-center w-10/12 mx-auto py-10 md:py-16 h-full  '>
           <div className='w-full relative h-full'>
             <div className=' absolute top-0 bottom-0 -left-3  md:-left-5 flex items-center   z-10 h-full'>
