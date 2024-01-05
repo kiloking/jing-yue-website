@@ -10,6 +10,7 @@ import Section05 from "./Release/Section05";
 import Section06 from "./Release/Section06";
 import Section07 from "./Release/Section07";
 import Section08 from "./Release/Section08";
+import Section09 from "./Release/Section09";
 import Footer from "./Release/Footer";
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <Section06 />
       <Section07 />
       <Section08 />
+      <Section09 />
       <Footer />
     </div>
   );
